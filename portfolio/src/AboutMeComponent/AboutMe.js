@@ -1,14 +1,13 @@
 import React from "react";
-import aboutMeImage from "./../logo.svg";
 import "./AboutMe.css";
 
 function AboutMe() {
   return (
     <div className="aboutMe">
-      <h2>About Me</h2>
-      <p>សួស្តី! I'm Ketya, a passionate web developer...</p>
-      <img src={aboutMeImage} alt="About Me" />
-      <p>In my spare time, I enjoy...</p>
+      <h2>Hey, I'm Ketya 👋</h2>I am a senior at Princeton University studying
+      computer science and pursuing a statistics and machine learning minor. I
+      enjoy working in teams with smart, enthusiastic people while building
+      products that make positive impacts.
     </div>
   );
 }
